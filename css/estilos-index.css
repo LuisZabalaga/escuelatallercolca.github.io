@@ -1032,6 +1032,8 @@ header{
 					.cont-slider-3 img{
 						width: 50%;
 						padding: 10px;
+						border-top-left-radius: 40px;
+						/* border-radius: 40px; */
 						}
 					.cont-descrip{
 						width: 50%;
