@@ -161,6 +161,7 @@ header{
 	width: 100%;
 	height: 64px;
 	top: 0px;
+	transition: 1s;
 	position: absolute;
 	z-index: 1000;
 }	
@@ -172,7 +173,7 @@ header{
 		position: absolute;
 		background-color: #16171B;
 		opacity: 0.9;
-		z-index: -1;				
+		z-index: -1;			
 	}
 
 	.menu-2 label{
@@ -181,12 +182,13 @@ header{
 
 	.menu-2 .cont-menu-2{
 		width: 100%;
-		height: 64px;
+		height: 100%;
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 	}
 		.menu-2 .cont-menu-2 .menu-logo{
-			padding: 2px 0 0 80px;
+			padding: 0px 0 0 80px;
 		}
 			.menu-2 .cont-menu-2 .menu-logo a{
 				display: flex;
@@ -202,7 +204,7 @@ header{
 					.menu-2 .cont-menu-2 .menu-logo a li h3{
 						font-size: 17px;
 						font-family: Broadway;
-						text-shadow: 4px 4px 2px #000;
+						text-shadow: 3px 3px 2px #000;
 						color: #FF2828; 
 					}
 
@@ -212,14 +214,14 @@ header{
 		}		
 			.menu-2 .cont-menu-2 .menu-letras li{
 				list-style: none;
-				line-height: 64px;
+				/* line-height: 64px; */
 				padding: 0 10px 0 10px;
 				text-align: center;
 				
 			}
 				.menu-2 .cont-menu-2 .menu-letras li a{
 					color: #999999;
-					font-size: 19px;
+					font-size: 20px;
 					font-weight: 550;
 					/* font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif; */ 
 					font-family: 'Haettenschweiler';
@@ -253,11 +255,11 @@ header{
 	}
 		.espace-2 li{
 			padding: 5px 0 5px 0;
-			border: 1px solid blue;
+			border: 1px solid white;
 			font-size: 17px;
-			color: #1A334F;
+			color: white;
 			width: 100%;
-			background-color: #1A334F;
+			background-color: white;
 			}
 			.espace-2 li:last-child{
 				border-top: 1px solid blue;
@@ -1956,7 +1958,8 @@ footer{
 		height: auto;
 		width: 100%;
 		position: relative;
-	}
+		z-index: 10000;
+	}	
 		.menu-2-2 label{
 			box-sizing: border-box;
 			margin:auto 20px;
@@ -2001,6 +2004,7 @@ footer{
 				display: none;
 				width: 100%;
 				background-color: white;
+				
 				}
 				.menu-letras li{
 					list-style: none;

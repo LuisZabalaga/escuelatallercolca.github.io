@@ -43,6 +43,19 @@ $(document).ready(function(){
 			$('.cont-menu-2 .menu-letras').css({'display' : 'none'});
 			$('.espace-2').css({'display' : 'none'});
 		}
-	});	
+
+		// $(window).on('scroll', function () {
+		// 	if ($(window).scrollTop()) {
+		// 		$('.cont-menu-2 .menu-letras').css({'display' : 'none'});
+		// 		$('.espace-2').css({'display' : 'none'});
+		// 	}
+		// })
+
+	});
+
+	
+
+
+	
 
 }); 
