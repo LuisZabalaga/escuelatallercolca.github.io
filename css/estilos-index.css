@@ -1818,7 +1818,6 @@ footer{
 	/* CONTENEDOR NOVEDADES */
 	/* PROPIEDADES DEL MENU DE PESTAÑAS */
 	.cont-novedades .main-news{
-		width: 22%;
 		display: grid;
 		grid-template-columns: 1fr;
 		}
