@@ -1188,23 +1188,27 @@ header{
 			/* PROPIEDADES DEL MENU DE PESTAÑAS */
 				.cont-novedades .main-news{
 					width: 22%;
-					display: block;
+					display: grid;
+					grid-template-columns: 1fr;
 					border-bottom-right-radius: 30px;
 					list-style: none;
 					overflow: hidden;
 					border: 1px solid #29F0B4;
 					border-left: none;
 					}
+					.cont-novedades .main-news li{
+						display: grid;
+						grid-template-columns: 1fr;
+					}
+
 					.cont-novedades .main-news a{
 						padding: 1.2em 1em;
-						/* background-color: #990537; */
 						background-color: #674DF0;
 						font-family: 'arial narrow';
 						/* border-bottom: 1px solid #B21C39; */
 						/* border-bottom: 1px solid #64001D; */
 						border-bottom: 1px solid #29F0B4;
 						border-right: 1px solid #29F0B4;
-						display: block;
 						color: white;
 						/* border-bottom-right-radius: 30px; */
 						}
@@ -1809,6 +1813,29 @@ footer{
 					margin: 0;
 					padding: 3px 0 0 0;
 				}	
+
+
+	/* CONTENEDOR NOVEDADES */
+	/* PROPIEDADES DEL MENU DE PESTAÑAS */
+	.cont-novedades .main-news{
+		width: 22%;
+		display: grid;
+		grid-template-columns: 1fr;
+		}
+		.cont-novedades .main-news li{
+			display: grid;
+			grid-template-columns: 1fr;
+		}
+
+		.cont-novedades .main-news a{
+			padding: 0px 3px;
+			display: flex;
+			align-items: center;
+			font-size: 12px;
+			}
+
+
+
 
 
 
