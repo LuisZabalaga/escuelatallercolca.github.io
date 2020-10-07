@@ -102,6 +102,7 @@ header{
 	width: 100%;
 	margin: auto;
 	position: relative;
+	background-color: #FF2828;
 }
 	.slider-1{
 		width: 100%;
@@ -140,6 +141,7 @@ header{
 			.cont-slider-1 .icofont-rounded-left{
 				font-size: 28px;
 				padding: 2px 15px;
+				background-color: #FF2828;
 			}
 		.slidesjs-navigation{
 			background-color: #FF2828;
