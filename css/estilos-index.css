@@ -1382,9 +1382,11 @@ header{
 			}
 			.suscribete__cont li {
 				font-size: 35px;
+				padding: 0 10px;
 				color: white;
 				font-family: 'Haettenschweiler';
 				list-style-type: square;
+				text-align: center;
 			}
 			.suscribete__cont p {
 				padding: 10px;
